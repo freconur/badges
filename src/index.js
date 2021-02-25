@@ -14,8 +14,8 @@ import ReactDOM from 'react-dom';
 
 const jsx = (
   <div>
-    <h1>Hola, soy FRECONUR</h1>
-    <p>Soy ingeniero frontend.</p>
+    <h1>Hola, haciendo prueba con las ramas</h1>
+    <p>Soy Fronted enginner</p>
   </div>
 );
 
