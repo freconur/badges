@@ -1,17 +1,31 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+// const jsx = <h1>Hello, Platzi Badges!</h1>;
+// const element = React.createElement(
+//   'a',
+//   { href: 'https://platzi.com' },
+//   'Ir a Platzi'
+// );
+// const name = 'Stephanie';
+// const sum = () => 3 + 3;
+// const element = React.createElement('h1', {}, `Hola, soy ${name}`);
+// const jsx = <h1>Hola soy, {undefined}</h1>;
+
+const jsx = (
+  <div>
+    <h1>Hola, soy Franco Ernesto Condori Huaraya</h1>
+    <p>Soy ingeniero frontend.</p>
+  </div>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+const element = React.createElement(
+  'div',
+  {},
+  React.createElement('h1', {}, 'Hola, soy Richard'),
+  React.createElement('p', {}, 'Soy ingeniero de la web.')
+);
+const container = document.getElementById('app');
+
+// ReactDOM.render(__qué__, __dónde__);
+ReactDOM.render(element, container);
