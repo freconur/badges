@@ -22,8 +22,8 @@ const jsx = (
 const element = React.createElement(
   'div',
   {},
-  React.createElement('h1', {}, 'Hola, soy Richard'),
-  React.createElement('p', {}, 'Soy ingeniero de la web.')
+  React.createElement('h1', {}, 'Hola, soy freconur'),
+  React.createElement('p', {}, 'Soy ingeniero deepweb.')
 );
 const container = document.getElementById('app');
 
